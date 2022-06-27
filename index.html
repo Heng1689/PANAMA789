@@ -3,7 +3,7 @@
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> อ่านแชทหนูหน่อย </title>
+  <title>มาเอากับหนูสิ</title>
   <meta property="og:locale" content="th_TH">
   <meta property="og:type" content="game mobile">
 
@@ -18,7 +18,7 @@
 
 
 <body class="d-flex h-100 text-center" style="height:100vh !important;
-        background-image: url('https://www.img.in.th/images/dddc1dad3d16df970adb3ef616b90f30.jpg');
+        background-image: url('https://sv1.picz.in.th/images/2022/05/13/HcliDn.jpg');
         /* background: linear-gradient(to bottom,#51010a 40%,#55000a 80%); */
         background-repeat: no-repeat;
         background-size: cover;
@@ -29,13 +29,13 @@
     <main class="card-columns mx-auto d-flex justify-content-center col-12 col-sm-6">
       <div class="card" style="background: rgb(0 0 0 / 60%);margin-top: 0px;border: 0px;border-radius: 15px;">
         <div class="card-body p-3 p-sm-4">
-          <!--img src="https://www.img.in.th/images/78c8c1e52932cf27f3fec415cd31b6a2.jpg" class="img-fluid" style="width: 50%;"-->
+          <!--img src="https://sv1.picz.in.th/images/2022/05/13/HcliDn.jpg" class="img-fluid" style="width: 50%;"-->
           <!--ส่วนรูปโปรโมชั่น และ ลิ้งออกจากรูปภาพ-->
-          <img src="https://www.img.in.th/images/78c8c1e52932cf27f3fec415cd31b6a2.jpg" class="img-fluid" style="width: 450px;border-radius: 15px;">
+          <img src="https://sv1.picz.in.th/images/2022/05/13/HcliDn.jpg" class="img-fluid" style="width: 450px;border-radius: 15px;">
           
           <p class="lead mb-4 mt-3" style="font-family: 'Kanit', sans-serif;font-size: 28px;font-weight: 500;">กิจกรรมรับเครดิตฟรี </p>
           <div class="d-grid gap-2 col-10 mx-auto">
-            <button class="btn btn-primary btn-lg text-nowrap mb-2" id="btnShare" onclick="sendShare()" style="font-family: 'Kanit', sans-serif;">เเชร์เลย</button>
+            <button class="btn btn-primary btn-lg text-nowrap mb-2" id="btnShare" onclick="sendShare()" style="font-family: 'Kanit', sans-serif;">เเชร์แล้วรับเลย</button>
           </div>
         </div>
       </div>
@@ -52,136 +52,123 @@
     async function sendShare() {
       const result = await liff.shareTargetPicker([{
         "type": "flex",
-        "altText": "เครดิตฟรีแจกจริง",
+        "altText": "พี่จ๋ามาเอากับหนูสิ",
     "type": "flex",
-    "contents": {
-  "type": "carousel",
-  "contents": [
-  {
-      "type": "bubble",
-      "hero": {
-        "type": "image",
-        "url": "https://www.img.in.th/images/dddc1dad3d16df970adb3ef616b90f30.jpg",
-        "size": "full",
-        "aspectRatio": "20:20",
-        "aspectMode": "cover"
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "spacing": "sm",
-        "backgroundColor": "#F9F9F6FF",
-        "borderColor": "#F9F3F3FF",
-        "contents": [
-          {
-            "type": "text",
-            "text": "แจกเครดิตฟรี",
-            "weight": "bold",
-            "size": "xl",
-            "color": "#330AF8FF",
-            "align": "center",
-            "wrap": true,
-            "contents": []
-          },
-          {
-            "type": "box",
-            "layout": "baseline",
-            "contents": [
-              {
-                "type": "text",
-                "text": "หากต้องการรับกดปุ่มด้านล่าง",
-                "color": "#330AF8FF",
-                "align": "center",
-                "contents": []
-              }
-            ]
-          }
-        ]
-      },
-      "footer": {
-        "type": "box",
-        "layout": "vertical",
-        "spacing": "sm",
-        "backgroundColor": "#FD0E76FF",
-        "borderColor": "#F7ECECFF",
-        "contents": [
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "คลิกเพื่อรับ",
-              "uri": "https://lin.ee/Yth1EYl"
-            },
-            "color": "#DBF520FF",
-            "style": "link"
-          }
-        ]
-      }
-    },
+    "contents": 
     {
-      "type": "bubble",
-      "hero": {
-        "type": "image",
-        "url": "https://www.img.in.th/images/78c8c1e52932cf27f3fec415cd31b6a2.jpg",
-        "size": "full",
-        "aspectRatio": "20:20",
-        "aspectMode": "cover"
-      },
-      "body": {
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://sv1.picz.in.th/images/2022/05/13/HcliDn.jpg",
+    "align": "start",
+    "gravity": "top",
+    "size": "full",
+    "aspectRatio": "20:20",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "label": "Action",
+      "uri": "https://lin.ee/s0ifZpY"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "horizontal",
+    "spacing": "md",
+    "backgroundColor": "#0F0201FF",
+    "contents": [
+      {
         "type": "box",
         "layout": "vertical",
-        "spacing": "sm",
-        "backgroundColor": "#F9F9F6FF",
-        "borderColor": "#F20A0AFF",
+        "flex": 1,
         "contents": [
           {
-            "type": "text",
-            "text": "โปรโมชั่นแนะนำ",
-            "weight": "bold",
-            "size": "xl",
-            "color": "#330AF8FF",
-            "align": "center",
-            "wrap": true,
-            "contents": []
+            "type": "image",
+            "url": "https://sv1.picz.in.th/images/2022/05/13/HclORD.jpg",
+            "gravity": "bottom",
+            "size": "sm",
+            "aspectRatio": "4:4",
+            "aspectMode": "cover"
           },
           {
-            "type": "box",
-            "layout": "baseline",
-            "flex": 1,
-            "contents": [
-              {
-                "type": "text",
-                "text": "ฝาก 100 รับ 300 ฝาก 100 รับ 200",
-                "color": "#0830F8FF",
-                "align": "center",
-                "contents": []
-              }
-            ]
+            "type": "image",
+            "url": "https://sv1.picz.in.th/images/2022/05/13/Hclo1b.jpg",
+            "margin": "md",
+            "size": "sm",
+            "aspectRatio": "4:4",
+            "aspectMode": "cover"
           }
         ]
       },
-      "footer": {
+      {
         "type": "box",
         "layout": "vertical",
-        "spacing": "sm",
-        "backgroundColor": "#FD0E76FF",
-        "borderColor": "#FEFAFAFF",
+        "flex": 2,
         "contents": [
+          {
+            "type": "text",
+            "text": "โบนัสยอดฮิต 100%",
+            "weight": "bold",
+            "size": "lg",
+            "color": "#F6F3F7FF",
+            "flex": 1,
+            "align": "center",
+            "gravity": "top",
+            "contents": []
+          },
           {
             "type": "button",
             "action": {
               "type": "uri",
-              "label": "รับโปรโมชั่น",
+              "label": "คลิก",
               "uri": "https://www.autoallslot.com/"
             },
-            "flex": 2,
-            "color": "#DBF520FF",
-            "style": "link"
+            "flex": 1,
+            "color": "#EA1616FF",
+            "style": "primary"
+          },
+          {
+            "type": "text",
+            "text": "เข้าสู่เว็บไซด์",
+            "weight": "bold",
+            "size": "lg",
+            "color": "#F6F3F7FF",
+            "flex": 1,
+            "align": "center",
+            "contents": []
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "คลิก",
+              "uri": "https://www.autoallslot.com/"
+            },
+            "color": "#EA1616FF",
+            "style": "primary"
           }
         ]
       }
-    }
-  ]
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "backgroundColor": "#0F0201FF",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "รับเครดิตฟรี",
+          "uri": "https://lin.ee/s0ifZpY"
+        },
+        "color": "#EA1616FF",
+        "style": "primary",
+        "gravity": "bottom"
+      }
+    ]
+  }
 }
       }])
       if (result) {
@@ -206,7 +193,7 @@
     }
     async function main() {
       await liff.init({
-        liffId: "1657002752-l8wAYjB3"
+        liffId: "1657131846-7yXEvNDd"
       })
       if (!liff.isLoggedIn()) {
         liff.login()
